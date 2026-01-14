@@ -68,7 +68,7 @@ function adicionarLive() {
     // Lógica para TWITCH
     else if (url.includes("twitch.tv")) {
         let canal = url.split("/").pop();
-        finalUrl = `https://player.twitch.tv/?channel=${canal}&parent=thiagohall.github.io`;
+        finalUrl = "https://player.twitch.tv/?channel=" + canal + "&parent=thiagohall.github.io";
     }
     // Lógica para KICK
     else if (url.includes("kick.com")) {
@@ -94,4 +94,5 @@ function adicionarLive() {
 </body>
 
 </html>
+
 
